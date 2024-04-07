@@ -1,0 +1,12 @@
+def ctok(c):
+    return c+273
+def ctof(c):
+    return 9/5*c+32
+def ftok(f):
+    return (f-32)*5/9+273
+def ftoc(f):
+    return (f-32)*5/9
+def ktof(k):
+    return ctof(k-273)
+def ktoc(k):
+    return ftoc(ktof(k))
